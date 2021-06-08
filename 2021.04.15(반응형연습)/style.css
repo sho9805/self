@@ -1,0 +1,56 @@
+:root {
+	--taxt-color:#f0f4f5;
+	--background-color: pink;
+	--accent-color:skyblue;
+}
+
+
+body{margin:0;}
+a{text-decoration: none;color:var(--taxt-color);}
+li{list-style:none;}
+.navbar{display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: var(--background-color);
+		padding: 8px 12px;}
+
+.navbar_logo{font-size: 24px;
+			color:var(--taxt-color);}
+
+.navbar_logo i{color:var(--accent-color);}
+
+.navbar_menu{display: flex;
+			padding-left: 0;}
+
+.navbar_menu li{padding: 8px 12px;}
+
+.navbar_menu li:hover{background-color: var(--accent-color);border-radius: 4px;}
+
+.navbar_icons{color:var(--taxt-color);
+			display: flex;
+			padding-left: 0;}
+
+.navbar_icons li{padding: 8px 12px;margin: 3px;}
+
+.navbar_icons li:hover{cursor: pointer;}
+
+
+.navbar_toogleBtn{position: absolute;right: 32px;font-size: 24px;color: var(--accent-color);display: none;}
+
+@media screen and (max-width: 768px){
+	.navbar{flex-direction:column;
+			align-items: start;
+			padding: 8px 24px;}
+	.navbar_menu{flex-direction:column;
+				align-items: center;
+				width: 100%;
+				display: none;}
+	.navbar_menu li{width: 100%;
+					text-align: center;}
+	.navbar_icons{justify-content: center;
+				width: 100%;
+				display: none;}
+	.navbar_toogleBtn{display: block;}
+
+	.navbar_menu.active,.navbar_icons.active{display: flex;}
+}

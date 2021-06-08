@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sohyun's Responsive Homepage</title>
+  <meta name="description" content="sohyun's self Responsive Homepage">
+  <meta name="author" content="sohyun">
+  <link rel="icon" type="images/png" href="images/favicon.png">
+  <!-- 폰트어썸 -->
+  <script src="https://kit.fontawesome.com/2afe98eab0.js" crossorigin="anonymous"></script>
+  <!-- 구글폰트 -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- font-family: 'Open Sans', sans-serif;css에 복사해서 넣기 -->
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <!-- navbar -->
+  <nav id="navbar">
+    <div class="navbar_logo">
+      <i class="fab fa-diaspora"></i>
+      <a href="#">Sohyun</a>
+    </div>
+      <ul class="navbar_menu">
+        <li class="navbar_menu_item active" data-link="#home">Home</li>
+        <li class="navbar_menu_item" data-link="#about">About</li>
+        <li class="navbar_menu_item" data-link="#skills">Skills</li>
+        <li class="navbar_menu_item" data-link="#work">My work</li>
+        <li class="navbar_menu_item" data-link="#testmonials">Testmonials</li>
+        <li class="navbar_menu_item" data-link="#contact">Contact</li>
+      </ul>
+      <!-- toggle button -->
+      <button class="navbar_toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+  </nav>
+
+  <!-- home -->
+  <section id="home">
+    <div class="home_container">
+      <img src="images/profile.jpg" alt="sohyun's dog" class="home_avatar">
+      <h1 class="home_tatle">안녕하세요,<br/>저는 소현이구요 이 사진은 저희 강아지 복돌이 입니다.</h1>
+      <h2 class="home_description">이 홈페이지는 독학으로 반응형 홈페이지를 만드는 것입니다.</h2>
+      <button class="home_contact">Contack Me</button>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section id="about" class="section section_container">
+    <h1>About me</h1>
+    <p>안녕하세요. 저는 주얼리 디자인을 전공 했습니다. 그쪽으로 취업 하였으나 코로나로 인한 나라의 경제적 영향을 직접적으로 경험한 후, 더욱 안정적이고 발전 가능성이 있으면서 주얼리 디자인을 전공한 저와 잘 맞는 직업군을 생각한것이 바로 웹 퍼블리셔 입니다. 웹 퍼블리셔 라는 직업군이 주얼리 디자인과 무슨 연관성이 있느냐 하면 조금 당황스럽게 느끼실수 있지만, 처음엔 포토샵과 일러스트를 작업하는데에 수월했고, 주얼리 디자인 분야에서 작고 섬세한 작업을 하다보니 웹 퍼블리셔 분야에서 작은 실수와 미세한 차이점을 남들보다 잘 느낄수 있는것이 웹 퍼블리셔 공부에 큰 도움이 되었습니다. 하이미디어 학원에서 5개월 동안 웹 퍼블리셔에 대한 공부를 했습니다. 학원에서 사용해본 프로그램은 포토샵, 일러스트, 아톰, 서브라임, 깃허브 등이 있으며 지금은 혼자 비주얼스튜디오,카페24,FileZilla,Notepad++,Wordpress를 공부중입니다. 지금 이 홈페이지는 반응형 페이지 만드는 연습을 하는 중입니다.</p>
+    <div class="about_majors">
+      <div class="major">
+        <div class="major_icon"><i class="fas fa-mobile-alt"></i></div>
+        <h2 class="major_title">반응형 홈페이지</h2>
+        <div class="major_description">반응형 홈페이지를 공부중 입니다.<br/>이미 있는 홈페이지를 재구성 하는 <br/>방법으로 연습하고 있습니다.</div>
+      </div>
+      <div class="major">
+        <div class="major_icon"><i class="fab fa-cuttlefish"></i></div>
+        <h2 class="major_title">카페24</h2>
+        <div class="major_description">카페24를 공부중 입니다.<br/>유튜브로 독학중 입니다.</div>
+      </div>
+      <div class="major">
+        <div class="major_icon"><i class="fab fa-wordpress-simple"></i></div>
+        <h2 class="major_title">워드프레스</h2>
+        <div class="major_description">워드프레스를 공부중 입니다.<br/>유튜브로 독학중 입니다.</div>
+      </div>
+    </div>
+    <div class="about_study">
+      <div class="study">
+        <img src="images/study/study1.png" alt="하이미디어" class="study_logo">
+        <div class="study_description">
+          <p class="study_name">하이미디어</p>
+          <p class="study_period">하이미디어 학원에서 5개월간 공부 했습니다.</p>
+        </div>
+        
+      </div>
+      <div class="study">
+        <img src="images/study/study2.png" alt="유튜브" class="study_logo">
+        <div class="study_description">
+          <p class="study_name">유튜브</p>
+          <p class="study_period">유뷰트로 코딩을 따라해보며 공부중 입니다.</p>
+        </div>
+      </div>
+      <div class="study">
+        <img src="images/study/study3.png" alt="구글" class="study_logo">
+        <div class="study_description">
+          <p class="study_name">구글</p>
+          <p class="study_period">구글링으로 html,css,javascript 등을 찾아봅니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills -->
+  <section id="skills" class="section">
+    <div class="section_container">
+      <h1>Skills</h1>
+      <h2>Skills & Attributes</h2>
+      <p>저는 전에 있던 직장에서 다른 사원들과 사이가 너무 좋아서 직장을 그만 둘 때에 사원들과의 헤어짐이 가장 어려웠습니다. 이렇듯 새로운 직장에서도 팀원들과 잘 지낼수 있습니다. 아래에는 저의 능력별 점수를 스스로 평가해 보았습니다.</p>
+      <div class="skillset">
+        <div class="skillset_left">
+          <h3 class="skillset_title">Skills</h3>
+          <div class="skill">
+            <div class="skill_description">
+              <span>HTML</span>
+              <span>60%</span>
+            </div>
+            <div class="skill_bar" style="width: 60%;">
+              <div class="skill_value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>CSS</span>
+              <span>70%</span>
+            </div>
+            <div class="skill_bar"style="width: 70%;">
+              <div class="skill_value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>JAVASCRIPT</span>
+              <span>40%</span>
+            </div>
+            <div class="skill_bar"style="width: 40%;">
+              <div class="skill_value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>TYPESCRIPT</span>
+              <span>10%</span>
+            </div>
+            <div class="skill_bar"style="width: 10%;">
+              <div class="skill_value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>REACT</span>
+              <span>100%</span>
+            </div>
+            <div class="skill_bar"style="width: 100%;">
+              <div class="skill_value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>NODEJS</span>
+              <span>90%</span>
+            </div>
+            <div class="skill_bar"style="width: 90%;">
+              <div class="skill_value"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillset_right">
+          <div class="tools">
+            <h3 class="skillset_title">Tools</h3>
+            <ul class="tools_list">
+              <li><span>포토샵</span></li>
+              <li><span>일러스트</span></li>
+              <li><span>아톰</span></li>
+              <li><span>서브라임</span></li>
+              <li><span>깃허브</span></li>
+              <li><span>FileZilla</span></li>
+              <li><span>Notepad++</span></li>
+              <li><span>Wordpress</span></li>
+            </ul>
+          </div>
+          <div class="etc">
+            <h3 class="skillset_title">Etc</h3>
+            <ul class="etc_list">
+              <li><span>엑셀</span></li>
+              <li><span>구글링</span></li>
+              <li><span>타자</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- work -->
+  <section id="work" class="section">
+    <div class="section_container">
+      <h1>My work</h1>
+    <h3>Projects</h3>
+    <div class="work_categories">
+      <button class="category_btn selected" data-filter="*">ALL<span class="catagory_count">6</span></button>
+      <button class="category_btn" data-filter="PC">PC<span class="catagory_count">3</span></button>
+      <button class="category_btn" data-filter="RESPONSIVE">RESPONSIVE<span class="catagory_count">1</span></button>
+      <button class="category_btn" data-filter="ET-CETERA">ET-CETERA<span class="catagory_count">2</span></button>
+    </div>
+    <div class="work_projects">
+      <a href="https://sho9805.github.io/2021website/01himedia" class="project" target="_blank" data-type="PC">
+        <img src="images/projects/himedia.png" alt="himedia" class="project_img">
+        <div class="project_description">
+          <h3>himedia site</h3>
+          <span>Clone coding with HTML and CSS and JAVASCRIPT</span>
+        </div>
+      </a>
+      <a href="https://sho9805.github.io/2021website/02college" class="project" target="_blank" data-type="PC">
+        <img src="images/projects/college.png" alt="college" class="project_img">
+        <div class="project_description">
+          <h3>college site</h3>
+          <span>Clone coding with HTML and CSS and JAVASCRIPT</span>
+        </div>
+      </a>
+      <a href="https://sho9805.github.io/2021website/03Travel_Agency" class="project" target="_blank" data-type="PC">
+        <img src="images/projects/Travel.png" alt="Travel_Agency" class="project_img">
+        <div class="project_description">
+          <h3>Travel_Agency site</h3>
+          <span>Clone coding with HTML and CSS and JAVASCRIPT</span>
+        </div>
+      </a>
+      <a href="https://sho9805.github.io/2021website/04company" class="project" target="_blank" data-type="RESPONSIVE">
+        <img src="images/projects/company.png" alt="company" class="project_img">
+        <div class="project_description">
+          <h3>company site</h3>
+          <span>Clone coding with HTML and CSS and JAVASCRIPT</span>
+        </div>
+      </a>
+      <a href="https://sho9805.github.io/2021website/06fullpage" class="project" target="_blank" data-type="ET-CETERA">
+        <img src="images/projects/fullpage.png" alt="fullpage" class="project_img">
+        <div class="project_description">
+          <h3>fullpage site</h3>
+          <span>Clone coding with HTML and CSS and JAVASCRIPT</span>
+        </div>
+      </a>
+      <a href="https://sho9805.github.io/2021website/07EAGON" class="project" target="_blank" data-type="ET-CETERA">
+        <img src="images/projects/EAGON.png" alt="EAGON" class="project_img">
+        <div class="project_description">
+          <h3>EAGON site</h3>
+          <span>Clone coding with HTML and CSS and JAVASCRIPT</span>
+        </div>
+      </a>
+    </div>
+    </div>
+  </section>
+
+  <!-- testmonials -->
+  <section id="testmonials" class="section">
+    <div class="section_container">
+      <h1>Testmonials</h1>
+    <h3>See what thay say about me</h3>
+    <div class="testmonials">
+      <div class="testmonial">
+        <img src="images/testimonial/smile.png" alt="smile people" class="testmonial_avatar">
+        <div class="testmonial_speech-bubble">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium facere vel nesciunt repudiandae animi qui similique magnam, nobis accusantium dolorem nemo pariatur possimus ab culpa corrupti totam ratione perspiciatis ullam.</p>
+          <p class="name"><a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%B1%84%EC%9B%90" target="_blank">채원</a> / samsung</p>
+        </div>
+      </div>
+      <div class="testmonial">
+        <div class="testmonial_speech-bubble">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium facere vel nesciunt repudiandae animi qui similique magnam, nobis accusantium dolorem nemo pariatur possimus ab culpa corrupti totam ratione perspiciatis ullam.</p>
+          <p class="name"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%83%81%ED%98%84&oquery=%EC%B1%84%EC%9B%90&tqi=h7%2B%2FpwprvhGssQ3Lvihsssssss4-170878" target="_blank">상현</a> / samsung</p>
+        </div>
+        <img src="images/testimonial/smile.png" alt="smile people" class="testmonial_avatar">
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="section">
+    <h1 class="contact_title">Let's talk</h1>
+    <h2 class="contact_email">sho9805@naver.com</h2>
+    <div class="contact_links">
+      <a href="https://github.com/sho9805" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.instagram.com/sohyun511/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <p class="contact_rights">2021 sohyun's - Responsive Homepage</p>
+  </section>
+
+  <!-- Arrow up -->
+  <button class="arrow-up">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</body>
+</html>
