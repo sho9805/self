@@ -5,4 +5,4 @@
     기간 : 05.06~06.06.09 시간 날때마다 조금씩 함.
     사용 언어 : html, css, javascript
     https://academy.dream-coding.com/ > 드림코딩 강의를 보면서 만듦.
-    ![완성](https://user-images.githubusercontent.com/75105368/122357478-c3126380-cf8e-11eb-8ddd-fb36ad99d408.png)
+    ![완성-깃](https://user-images.githubusercontent.com/75105368/122357921-1e445600-cf8f-11eb-9da9-3fbc41217b2a.png)
