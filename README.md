@@ -25,9 +25,7 @@
     사용 언어 : html, css, javascript
     
     기능 : 반응형, 
-    
            메뉴 아이템 클릭시 해당 메뉴로 이동(스크롤이벤트),
-           
            스크롤 이동시 up버튼 생성(up버튼 클릭시 최상단으로 이동하는 이벤트)
            
     https://academy.dream-coding.com/ > 드림코딩 강의를 보면서 만듦.
