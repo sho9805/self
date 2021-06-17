@@ -6,6 +6,7 @@
     기능 : 반응형
     https://academy.dream-coding.com/ > 드림코딩 강의를 보면서 만듦.
     ![깃-pc](https://user-images.githubusercontent.com/75105368/122360057-0ff73980-cf91-11eb-928c-a36d85dae786.png)
+    
     ![깃-모바일](https://user-images.githubusercontent.com/75105368/122360073-12f22a00-cf91-11eb-925d-b07f3a4d261f.PNG)
 
 
@@ -18,4 +19,5 @@
            스크롤 이동시 up버튼 생성(up버튼 클릭시 최상단으로 이동하는 이벤트)
     https://academy.dream-coding.com/ > 드림코딩 강의를 보면서 만듦.
     ![깃-pc](https://user-images.githubusercontent.com/75105368/122359955-fbb33c80-cf90-11eb-9557-fb2095fe7c99.png)
+    
     ![깃-모바일](https://user-images.githubusercontent.com/75105368/122359975-feae2d00-cf90-11eb-81f5-64c539dcb5d9.png)
