@@ -1,0 +1,74 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+
+  /* size */
+  --size-button:60px;
+  --button-font-size:18px;
+  --base-space:8px;
+  --size-border:4px;
+  --size-thumbnail:50px;
+
+  /* annimation */
+  --animation-duration: 300ms;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body{background-color: var(--color-black);
+    display: flex; /*수평 수직에서 중간으로 지정하기 위해*/
+    flex-direction: column; /*기본값이 low이기 때문에 수평정렬되는데, column으로 수직정렬되도록.*/
+    justify-content: center;/*수평정렬 센터*/
+    align-items: center;/*반대축에서 정렬 센터*/
+    /*그래도 아직 화면의 정 중앙에 위치 하지 않음.
+    바디 크기가 작기때문에 작은 바디 크기에 맞게 중앙에 온것임.
+    그렇기 때문에 바디의 height을 지정해 줘야함.↓*/
+    height: 100vh;/*윈도우의 100%*/}
+
+.logo{cursor: pointer;
+      transition: transform var(--animation-duration) ease;}
+
+.logo:hover, .btn:hover{transform: scale(1.1);}
+
+.btn{background:transparent;/*백그라운드 투명*/
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform var(--animation-duration) ease;
+    margin-right: var(--base-space);}
+
+.buttons{display: flex;
+        align-items: center;}
+
+.imgBtn{width:var(--size-button);
+        height: var(--size-button);}
+
+.colorBtn{font-size: var(--button-font-size);
+          padding: calc(var(--base-space) * 2); /* calc계산함수를 이용해서 --base-space보다 2배 크게*/
+          border-radius: var(--size-border);
+          }
+
+.blue{background-color: var(--color-blue);}
+.yellow{background-color: var(--color-yellow);}
+.pink{background-color:var(--color-pink);}
+.items{width: 60%;
+      height: 60%;
+      list-style: none;
+      padding-left: 0;
+      overflow-y: scroll;/* items안에서만 스크롤이 되도록 */}
+.item{background-color: var(--color-white);
+      display: flex;
+      align-items: center;
+      padding: var(--base-space);
+      margin-bottom: var(--base-space);}
+.item_thumbnail{width: var(--size-thumbnail);
+                height: var(--size-thumbnail);}
+.item_description{margin-left: var(--base-space);
+                  font-size: var(--button-font-size);}
