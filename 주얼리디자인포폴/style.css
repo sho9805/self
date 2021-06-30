@@ -1,0 +1,13 @@
+* {box-sizing: border-box;}
+  body{margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    cursor: default;/* 텍스트에 마우스 올리면 드레그 할수있는 마우스 상태가 되는데, 그것을 막고 기본 마우스 형태로 유지 */}
+  a{text-decoration: none;/* a태그에 아래밑줄 none */
+    color: var(--color-white);}
+  ul{list-style: none;/* ul앞에 점표시 none */
+    padding-left: 0;}
+
+ul{background: white;}
+li{list-style: none;float: left;width: 200px;text-align: center;background: red;margin: 0 10px;}
+a{color:black;width: 100%;height: 100%;}
+.main{background:pink;width: 1100px;height: 100px;margin: 0 auto;display: flex;flex-wrap: wrap; justify-content: center;}
