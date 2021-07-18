@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/png" href="images/favicon.ico">
+    
+    <title>Document</title>
+
+    <link rel="stylesheet" media="(max-width:767px)" href="style.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/colorbox.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <script src="css/jquery-3.1.1.min.js"></script>
+    <script src="css/jquery.bxslider.js"></script>
+    <script src="css/jquery.colorbox-min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var mySlider = $(".main_slider").bxSlider({
+                controls:false,pager:false,auto:true,
+            });
+
+            var mySlider1 = $(".promote_slider").bxSlider({
+                controls:false,pager:false,auto:true,
+            });
+            $(".rightBtn").click(function(){
+                mySlider.goToNextSlide();
+            });
+            $(".leftBtn").click(function(){
+                mySlider.goToPrevSlide();
+            });
+            $(".nextBtn").click(function(){
+                mySlider1.goToNextSlide();
+            });
+            $(".prevBtn").click(function(){
+                mySlider1.goToPrevSlide();
+            });
+        $(".modal").colorbox({
+            iframe:true,
+            innerWidth:700,
+            innerHeight:393.75
+            });
+    });
+    </script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#!">
+                <img src="images/favicon.ico" alt="logo">
+                <h1>blank</h1>
+            </a>
+        </div>
+        <ul class="navmenu">
+            <a href="sub_one" class="navitem"><li>카쉐어링</li></a>
+            <a href="sub_two" class="navitem"><li>풀빌라</li></a>
+            <a href="sub_three" class="navitem"><li>요양원</li></a>
+            <a href="sub_three" class="navitem"><li>고객지원</li></a>
+        </ul>
+    </nav>
+    <div class="ct">
+        <div class="ctitem">
+            <img src="images/요양원.jpg" alt="">
+            <div class="txt">
+                <h1>공간을 선물 하세요.</h1>
+                <h2>부모님께, 친구에게, 그리고 자신에게!</h2>
+            </div>
+            <a href="#!">자세히 보기
+                <div class="wrap">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                </div>
+            </a>
+        </div>
+</body>
+</html>
